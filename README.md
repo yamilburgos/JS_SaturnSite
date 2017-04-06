@@ -24,7 +24,7 @@ You've been given the HTML for the Saturn page and a starter stylesheet. Your ta
 
 ### 🚨🚨🚨 Please, please, please *DON'T* complete all of these!!! 🚨🚨🚨
 
-They're designed so that you should only be able to do one or *at most* two. ***That's okay!*** We will keep working on the space site all unit, so if there's something here you really want to try, you will have time. 😉
+They're designed so that you should only be able to do one or *at most* two. ***Remember to get some sleep!***
 
 - In this repository, create a markdown file `reflection-properties.md` (❗️this also should be linked in your issue ticket) and write about: 
     - Your two favorite CSS properties so far
@@ -33,4 +33,4 @@ They're designed so that you should only be able to do one or *at most* two. ***
 - Make another planet page! (You *should* be able to reuse a lot of the HTML from the Saturn page and just change the content.)
 - Don't like the design? Switch up the [colors](http://www.vanschneider.com/colors/) and [fonts](https://fonts.google.com/).
 - Our logo right now is super boring 😕 Try creating a new one **without using any images or image editors**. Here's a hint: What happens if you set `border-radius: 100%` on a `div` with a height, width, and background color? Add your logo to both the header and the footer.
-- If you're super proud of your work & want to show it off, try uploading it to [BitBalloon](https://www.bitballoon.com/)!
+- If you're super proud of your work & want to show it off, try uploading it to GitHub Pages!
