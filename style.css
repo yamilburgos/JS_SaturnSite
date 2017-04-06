@@ -173,10 +173,7 @@ footer {
 /*
 #################################### 
 ###### MEDIA QUERY -- DESKTOP ######
-####################################
-#### TO LEARN MORE: 
-- https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries 
+#################################### 
 */
 @media screen and (min-width: 1025px) {
 
