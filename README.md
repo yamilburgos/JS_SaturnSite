@@ -17,9 +17,9 @@ You've been given the HTML for the Saturn page and a starter stylesheet. Your ta
 
 - Remember your [homework work flow](https://git.generalassemb.ly/nyc-wdi-hypatia/hypatia-students/blob/master/hw-workflow.md)
 - Your issue ticket should contain a link to a deployed page on github pages and a link to your repo.
+- Our logo right now is super boring 😕 Try creating a new one **without using any images or image editors**. Here's a hint: What happens if you set `border-radius: 100%` on a `div` with a height, width, and background color? Add your logo to both the header and the footer.
+- Once you've created you're logo use transitions and keyframes to animate it!
 - If applicable, your repo should have the bonus reflection markdown file (see bonuses below)
-- Choose at least one bonus!
-- Have a short paragraph (2-3 sentences) describing which bonus you chose to do, why you decided to do it, and (if applicable) what bugs or issues you ran into as you were working on it.
 
 ## Bonuses! 🎉
 
@@ -30,7 +30,6 @@ They're designed so that you should only be able to do one or *at most* two. ***
 - In this repository, create a markdown file `reflection-properties.md` (❗️this also should be linked in your issue ticket) and write about: 
     - Your two favorite CSS properties so far
     - The two properties that are giving you the most trouble
-- Using the animation techniques you learned today, put some animations on the page!
 - Make another planet page! (You *should* be able to reuse a lot of the HTML from the Saturn page and just change the content.)
 - Don't like the design? Switch up the [colors](http://www.vanschneider.com/colors/) and [fonts](https://fonts.google.com/).
-- Our logo right now is super boring 😕 Try creating a new one **without using any images or image editors**. Here's a hint: What happens if you set `border-radius: 100%` on a `div` with a height, width, and background color? Add your logo to both the header and the footer.
+
