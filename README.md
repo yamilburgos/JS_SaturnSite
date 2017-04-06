@@ -22,8 +22,7 @@ You've been given the HTML for the Saturn page and a starter stylesheet. Your ta
 
 - Remember your [homework work flow](https://git.generalassemb.ly/nyc-wdi-hypatia/hypatia-students/blob/master/hw-workflow.md)
 - Your issue ticket should contain a link to a deployed page on github pages and a link to your repo.
-- Our logo right now is super boring 😕 Try creating a new one **without using any images or image editors**. Here's a hint: What happens if you set `border-radius: 100%` on a `div` with a height, width, and background color? Add your logo to both the header and the footer.
-- Once you've created you're logo use transitions and keyframes to animate it!
+- Our logo right now is super boring 😕 Try creating a new one **without using any images or image editors** and then animate it! Just spitballing here but we did something that looked an awful lot like an orbiting planet in class today...
 - If applicable, your repo should have the bonus reflection markdown file (see bonuses below)
 
 ## Bonuses! 🎉
