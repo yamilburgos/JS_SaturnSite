@@ -7,6 +7,11 @@ We have a client who wants a Saturn webpage! They've given us an image for deskt
 
 You've been given the HTML for the Saturn page and a starter stylesheet. Your task is to add to the stylesheet so the page in the browser looks like the specs and find an image for the quote section.
 
+## Required Reading
+- [Eloquent Javascript chapter 13](http://eloquentjavascript.net/13_dom.html)
+- [css-tricks media queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [mozilla media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) 
+
 ## Before you start: 
 
 - Take some time to read through the CSS. What rules are doing what? What happens if you change a few things? 
