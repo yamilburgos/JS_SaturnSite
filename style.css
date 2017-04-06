@@ -1,0 +1,264 @@
+/* 
+===============================================
+  BASE CASE CSS: start writing for mobile!!!!!
+===============================================
+*/
+
+/* BODY */
+
+/* base setup */
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+i {
+  font-style: italic;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* header, logo, nav */
+header {
+  background-color: #aaa;
+}
+
+header .logo {
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2em;
+}
+
+.navlist li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navlist li {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.navlist {
+  padding-bottom: 30px;
+}
+
+/* call to action */
+
+#cta {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cta-head {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  padding: 0 20px;
+}
+
+.cta-a {
+  display: block;
+  width: 25%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: white;
+  color: #444;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+}
+
+.footer-col {
+  color: white;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 70px;
+  text-align: center;
+}
+
+
+/*
+====================
+===== HOME =========
+====================
+*/
+
+/* rows */
+
+.row {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+/*
+====================
+====== PLANETS PAGES 
+====================
+*/
+
+/* RULES THAT WILL APPLY TO ALL PLANET PAGES GO HERE */
+
+/* title area */
+.title-area .feat {
+  display: block;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+    /* title facts */
+
+.title-area .top-facts {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+
+.title-area .top-facts .facts-container .fact {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.title-area .top-facts .facts-container .fact span {
+  display: block;
+}
+
+.title-area .top-facts .facts-container .fact .fact-number {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.title-area .top-facts .facts-container .fact .fact-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+/*
+====================
+====== PLANET-SPECIFIC RULES 
+====================
+*/
+
+/* RULES THAT WILL ONLY APPLY TO SATURN GO HERE */
+
+.saturn .title-area {
+  background-image: url('./assets/bg-saturn.jpg');
+  background-size: cover;
+}
+
+
+
+
+/*
+#################################### 
+###### MEDIA QUERY -- DESKTOP ######
+####################################
+#### TO LEARN MORE: 
+- https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries 
+*/
+@media screen and (min-width: 1025px) {
+
+  /* base setup */
+  body {
+    font-size: 18px;
+  }
+
+  /* header, logo, nav */
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  
+  header .logo {
+    display: block;
+    float: left;
+  }
+
+  header nav {
+    display: block;
+    float: right;
+    padding-right: 20px;
+  }
+
+  .navlist li {
+    display: inline-block;
+  }
+
+  .navlist li a {
+    padding: 2em 10px;
+    display: block;
+  }
+
+  .navlist {
+    padding-bottom: 0px;
+  }
+
+    /* footer */
+
+  .footer-col {
+    width: 24%;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+  }
+
+  .last-col {
+    border-right: 1px solid #ccc;
+  }
+
+  /*
+  ====================
+  ====== PLANETS PAGES 
+  ====================
+  */
+
+  .title-area .feat {
+    padding: 250px 0 150px;
+  }
+
+  .facts-container .fact {
+    display: inline-block;
+    width: 31%;
+  }
+
+
+}
+
+/* 
+#####################################
+####### MEDIA QUERY -- TABLET #######
+##################################### 
+*/
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+  /* RULES GO HERE */
+
+  /*
+  ====================
+  ===== HOME =========
+  ====================
+  */
+  .planet-col img {
+    width: auto;
+  }
+}
